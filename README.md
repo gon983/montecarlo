@@ -5,4 +5,4 @@ En el back hay un archivo tp.py, me oarece que lo unico que varia en el tp es el
 
 lo que quedaria hacer es la funcion tp() que toma el parametro producto (ya esta hecho eso) y agrega todos los demas datos y hace la simulacion
 
-despues en front hay q mostrar los datos en una tabla pero eso es una boludez
+despues en front hay q mostrar los datos en una tabla (poner los nombres de las columnas y con un forEach ir iterando los renglones de la simulacion)
