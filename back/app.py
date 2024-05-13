@@ -9,9 +9,9 @@ CORS(app)  # Habilitar CORS
 def home():
     return '<h1>Home</h1>'
 
-@app.route('/<n_producto>', methods=['GET'])
-def get_nivel(n_producto):
-    datos = tp(n_producto)
+@app.route('/<costo_producto>/<valor_recupero>/<cantidad_dias>/<tamano_lote>/<stock_inicial>', methods=['GET'])
+def get_nivel(costo_producto, valor_recupero, cantidad_dias, tamano_lote, stock_inicial):
+    datos = tp(costo_producto, valor_recupero, cantidad_dias, tamano_lote, stock_inicial)
     return jsonify(datos)
 
 

@@ -9,12 +9,19 @@
 </head>
 <body>
     <h1>Productos</h1>
-    <select id="selectorProductos">
+    <div class="container">
+    <!-- <select id="selectorProductos">
         <option value="1">Producto 1</option>
         <option value="2">Producto 2</option>
-    </select>
+    </select> -->
+    <label for="">Costo del producto</label><input id="costoProducto"type="text">
+    <label for="">Valor de Recupero</label><input id="valorRecupero" type="text">
+    <label for="">Cantidad de dias</label><input id="cantidadDias" type="text">
+    <label for="">Tamaño de lote</label><input id="tamañoLote" type="text">
+    <label for="">Stock Inicial</label><input id="stockInicial" type="text">
+
     <button onclick="simule()">Simular</button>
-    <div class="container">
+    
     <div id="divRta">
 
     </div>
